@@ -206,3 +206,61 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# === ML PROJECT SPECIFIC ===
+
+# Project data and artifacts
+processed_data/
+thermal_face_dataset.csv
+dataset/
+data/
+ml_fixed_env/
+
+# ML models and outputs
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.weights
+models/
+saved_models/
+checkpoints/
+logs/
+runs/
+outputs/
+results/
+mlruns/
+
+# TensorFlow specific
+*.pb
+saved_model/
+tensorboard_logs/
+
+# Data files
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# IDE (uncomment from above)
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+
+# Configuration
+config.json
+secrets.json
+credentials/
+api_keys/
+
+
+
+
